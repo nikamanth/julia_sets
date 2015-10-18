@@ -14,14 +14,14 @@ The following is a short example on how to use this package to visualize Julia S
 
 <p><code>
 using julia_sets
-
-x = [i for i=-5:0.1:5]
-y = [i for i=-5:0.1:5]
-function F{T<:Number}(z::T) z^2 end
-
-A = gen_jset(F,x,y,10,20)
-
-show_jset(A)
 </code></p>
+<p><code>x = [i for i=-5:0.1:5]</code></p>
+<p><code>y = [i for i=-5:0.1:5]</code></p>
+<p><code>function F{T<:Number}(z::T) z^2 end</code></p>
+
+<p><code>A = gen_jset(F,x,y,10,20)</code></p>
+
+<p><code>show_jset(A)</code></p>
+
 
 
