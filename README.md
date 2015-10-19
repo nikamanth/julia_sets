@@ -1,5 +1,7 @@
 # julia_sets
 
+CME257 HW4 | Naveen Appiah Balaji
+
 This is a package to generate Julia Sets. Consider a rational function in the complex plane R(z) = P(z)/Q(z) where P, Q are polynomials without common divisors. Let S be the set of points z in the complex plane that do not approach infinity after having R repeatedly applied. That is
 
 R(R(...R(z)...))
@@ -9,6 +11,9 @@ does not go to infinity. Julia sets are the boundary of S.
 [Wikipedia definition](https://en.wikipedia.org/wiki/Julia_set)
 
 #Usage
+
+To add this julia package:
+<p><code>Pkg.clone("https://github.com/nikamanth/julia_sets.git")</code></p>
 
 The following is a short example on how to use this package to visualize Julia Sets. The <code>gen_jset()</code> function that has the following properties:
 
